@@ -13,6 +13,7 @@
     "background": {
         "service_worker": "background.js"
     },
+    
 
 
     "icons": 
@@ -22,15 +23,13 @@
     "48": "images/icon-48.png",
     "128": "images/icon-128.png"
         },
-    
 
     "content_scripts": [
-    {
-      "js": ["scripts/content.js"],
-      "matches": [ 
-        "https://*"
-      ]
-    }
-  ]
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content_script.js"],
+        "css": ["styles.css"]
+      }
+    ]
 }
 
