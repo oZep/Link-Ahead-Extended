@@ -4,6 +4,15 @@
     "version": "1.0",
     "description": "Identifying Phishing Links in Real Time",
     "author": "Joey Issa",
+    "permissions": [
+        "activeTab",
+        "storage",
+        "https://*/*",
+        "http://*/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
 
 
     "icons": 
