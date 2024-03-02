@@ -7,12 +7,9 @@
   "permissions": [
     "activeTab",
     "storage",
-    "<all_urls>",
     "scripting",
     "tabs",
-    "action",
-    "https://*/*"
-
+    "background"
   ],
   "background": {
     "service_worker": "background.js"
