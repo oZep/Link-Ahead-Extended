@@ -1,15 +1,16 @@
 const linkText = document.querySelectorAll('a');
 linkText.forEach((link) => {
     // call api on link
-    sketch_factor = fetch(`http://localhost:3000/api?url=${link.href}`)
-    if (x >= 0.5) {
-        var red = 255 * x
-        link.style.backgroundColor = 'rbg(${red}, 0, 0)';
-        link.style.border = '3px solid rbg(${red}, 0, 0)';
+    var sketch_factor = link.href.length / 100;
+    if (sketch_factor >= 0.5) {
+        var red = 255 * sketch_factor
+        link.style.backgroundColor = 'rgb(${red}, 0, 0)';
+        link.style.border = '3px solid rgb(${red}, 0, 0)';
+        console.log('red');
     } else {
-        var green = 255 * (1 - x)
-        link.style.backgroundColor = 'rbg(0, 0, ${green})';  
-        link.style.border = '3px solid rbg(0, 0, ${green})';
+        var green = 255 * (1 - sketch_factor)
+        link.style.backgroundColor = 'rgb(0, ${green}, 0)';  
+        link.style.border = '3px solid rgb(0, ${green}, 0)';
     }
 
 });
