@@ -1,6 +1,5 @@
 # Link-Ahead-Extended
 
-![gallery (1)](https://github.com/oZep/Link-Ahead-Extended/assets/97713154/d9d2f88f-16bb-48ce-b99a-689cbfd7b204)
 ![gallery](https://github.com/oZep/Link-Ahead-Extended/assets/97713154/7cd6c451-f27f-480a-90f2-b9d71678f49f)
 
 ## Challenge
@@ -37,3 +36,6 @@ Find somewhere to host indefinitely, and upload the chrome extension for approva
 [Slides] https://docs.google.com/presentation/d/1_gk9gpgYydGDOnoFh71wkYx1LNCpRqqVUksM8woCePU/edit?usp=sharing
 
 [Devpost] https://lnkd.in/eTaZUyCx
+
+
+![gallery (1)](https://github.com/oZep/Link-Ahead-Extended/assets/97713154/d9d2f88f-16bb-48ce-b99a-689cbfd7b204)
